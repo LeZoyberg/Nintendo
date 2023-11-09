@@ -1,5 +1,6 @@
 package test;
 
+import model.Boutique;
 import model.Console;
 import model.Jeu;
 
@@ -15,6 +16,9 @@ public class Test {
 	Jeu j3 = new Jeu("Animal Crossing",Switch);
 	Jeu j4 = new Jeu("Wii Sport",Wii);
 	Jeu j5 = new Jeu("Pokemon Stadium",Nintendo64);
+	
+	Boutique b1 = new Boutique("Melee Boutique", "55 Rue de Luigi") ; 
+	
 	}
 
 }
