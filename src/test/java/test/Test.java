@@ -26,7 +26,10 @@ public class Test {
 	Jeu j3 = new Jeu("Animal Crossing",Switch,b1);
 	Jeu j4 = new Jeu("Wii Sport",Wii,b1);
 	Jeu j5 = new Jeu("Pokemon Stadium",Nintendo64,b1);
-	//c1.getAchats().add(j5,LocalDate.now(),1.0);
+	
+	Achat a1 = new Achat(j5,LocalDate.now(),1.0);
+	c1.getAchats().add(a1);
 
+	System.out.println(c1);
 	}
 }
