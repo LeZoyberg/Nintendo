@@ -15,9 +15,6 @@ public class Test {
 	Jeu j3 = new Jeu("Animal Crossing",Switch);
 	Jeu j4 = new Jeu("Wii Sport",Wii);
 	Jeu j5 = new Jeu("Pokemon Stadium",Nintendo64);
-	
-	
-	
 	}
 
 }
