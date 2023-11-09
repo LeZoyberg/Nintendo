@@ -2,7 +2,7 @@ package model;
 
 public abstract class Console {
 
-	private String nom;
+	protected String nom;
 
 	public Console(String nom) {
 		this.nom = nom;
